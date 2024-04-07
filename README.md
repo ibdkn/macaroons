@@ -18,11 +18,10 @@ Link: https://ibdkn.github.io/macaroons/
 ## Features:
 <ul>
   <li>
-    <b>SCSS Animation:</b> Sophisticated visual effects on the webpage are achieved using CSS animations. These animations enhance the user experience by providing dynamic feedback and interactive elements.
+    <b>CSS Animation:</b> Sophisticated visual effects on the webpage are achieved using CSS animations. These animations enhance the user experience by providing dynamic feedback and interactive elements.
   </li>
   <li>
-    <b>Ajax Request:</b> The page includes AJAX (Asynchronous JavaScript and XML) requests for seamless and efficient data retrieval from the server. This allows for updating parts of the webpage without reloading the entire page.
+    <b>Ajax Request:</b> The page includes AJAX (Asynchronous JavaScript and XML) requests for seamless and efficient data retrieval from the server. This allows for updating parts of the webpage without reloading the entire page. *Please note, the request link is currently inactive!
   </li>
 </ul>
 
-*<b>Please note, the request link is currently inactive!</b>
