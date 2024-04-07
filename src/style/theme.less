@@ -1,0 +1,39 @@
+@first-main-background: rgb(235, 168, 177);
+@second-main-background: rgb(255, 239, 239);
+@first-text-color: rgb(255, 255, 255);
+@second-text-color: rgb(51, 25, 7);
+@third-text-color: rgb(18, 10, 6);
+@fourth-text-color: rgb(119, 11, 29);
+@fifth-text-color: rgb(227, 172, 180);
+@sixth-text-color: rgb(119, 10, 29);
+@input-text-color: rgb(63, 6, 18);
+@button-text-color: rgb(255, 255, 255);
+
+// Миксины
+.main-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+.button-style {
+  position: relative;
+  z-index: 100;
+  padding: 19px 22px 19px 22px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: Gilroy-Bold, sans-serif;
+  color: @button-text-color;
+  text-align: center;
+  background-image: -moz-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+  border-radius: 30px;
+  border: none;
+  transition: box-shadow .6s ease;
+
+  &:hover {
+    box-shadow: 0 5px 9px 1px rgba(130, 19, 40, 0.5);
+    transition: .6s;
+  }
+}
